@@ -58,4 +58,9 @@ func main() {
 
 	fmt.Println(DummyToken)
 	fmt.Printf("Variable is of type: %T \n", DummyToken)
+
+	// Multiple variable declaration
+
+	var a, b, c int = 1, 2, 3
+	fmt.Println(a, b, c)
 }
